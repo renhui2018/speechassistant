@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title='聊天助手'
+    link(href="stylesheets/css/speech.css" media="screen, projection" rel="stylesheet")
+    script(src='jslibs/jquery-3.2.1.js')
+    script(src='javascripts/speechInput.js')
+    script(src='javascripts/speech.js')
+  body
+    div#container
+        div(class='header')
+            div(style="float:left") 聊天助手
+        div#input-status-indicator
+            img(id="speech-input-mic-svg" src="stylesheets/images/microphone.svg")
+        ul(class="content")
+        div(class="footer")
+            input(id="sendtext" type="text" placeholder="说点什么吧...")
+            span(id="sendbtn") 发送

@@ -1,0 +1,16 @@
+{
+    "speechdb": {
+        "uri": "mongodb://HOST/speech",
+        "options": {
+            "server": {
+                "poolSize": 5
+            },
+            "autoIndex": true
+        }
+    },
+    "speechAPI": {
+        "url": "http://www.tuling123.com/openapi/api",
+        "key": "",
+        "userid": "speechassistant"
+    }
+}

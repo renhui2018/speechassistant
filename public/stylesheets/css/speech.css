@@ -1,0 +1,169 @@
+#input-status-indicator {
+  transition: background-color 0.2s ease-out, box-shadow 0.3s cubic-bezier(0, 3, 0, 0);
+  display: block;
+  margin: 15px auto;
+  padding: 0;
+  line-height: 80px;
+  width: 80px;
+  height: 80px;
+  font-size: 48px;
+  text-align: center;
+  border-radius: 100%;
+  box-shadow: 0 0 0 3px #AAA, 0 0 0 3px #c0f7ec;
+  background-color: gray;
+  color: white;
+}
+
+.speech-input-recognizing {
+  transition: background-color 0.2s ease-out, box-shadow 0.3s cubic-bezier(0, 3, 0, 0);
+  display: block;
+  margin: 15px auto;
+  padding: 0;
+  line-height: 80px;
+  width: 80px;
+  height: 80px;
+  font-size: 48px;
+  text-align: center;
+  border-radius: 100%;
+  box-shadow: 0 0 0 3px #AAA, 0 0 0 3px #c0f7ec;
+  background-color: red;
+  color: white;
+}
+
+html,
+body {
+    /*height: 98%;*/
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#container {
+    width: 900px;
+    height: 900px;
+    background: #eee;
+    margin: 30px auto 0;
+    position: relative;
+    box-shadow: 20px 20px 55px #777;
+}
+
+#speech-input-mic-svg {
+    fill: white;
+    filter: drop-shadow(0px -1px 0px #696);
+    width: 80px;
+    height: 80px;
+}
+
+.header {
+    background: #000;
+    height: 35px;
+    color: #fff;
+    line-height: 34px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.footer {
+    width: 880px;
+    height: 50px;
+    background: #666;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.footer input {
+    width: 700px;
+    height: 45px;
+    outline: none;
+    font-size: 20px;
+    text-indent: 10px;
+    position: absolute;
+    border-radius: 6px;
+    left: 50px;
+}
+
+.footer span {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: #ccc;
+    font: bold 18px Helvetica;
+    line-height: 55px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    border-radius: 6px;
+}
+
+.footer span:hover {
+    color: #fff;
+    background: #999;
+}
+
+.label {
+    margin: 10px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.text {
+    margin: 20px;
+    min-height: 100px;
+    background-color: #CCC;
+}
+
+img{
+  width: 32px;
+  height: 32px;
+}
+
+.content {
+    font-size: 15px;
+    width: 880px;
+    height: 600px;
+    overflow: auto;
+    padding: 5px;
+}
+
+.content li {
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 800px;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+.content li img {
+    float: left;
+}
+
+.content li span {
+    background: #7cfc00;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    margin: 6px 10px 0 10px;
+    max-width: 700px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.content li img.imgleft {
+    float: left;
+}
+
+.content li img.imgright {
+    float: right;
+}
+
+.content li span.spanleft {
+    float: left;
+    background: #fff;
+}
+
+.content li span.spanright {
+    float: right;
+    background: #7cfc00;
+}

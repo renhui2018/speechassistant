@@ -1,0 +1,30 @@
+{
+  "name": "speechassistant",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "rspeech": "node ./bin/www_speech",
+    "dspeech": "node --inspect ./bin/www_speech"
+  },
+  "dependencies": {
+    "bluebird": "3.4.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "lodash": "^4.14.0",
+    "mongoose": "4.5.3",
+    "morgan": "~1.9.0",
+    "request": "^2.83.0",
+    "serve-favicon": "~2.4.5",
+    "winston": "2.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
