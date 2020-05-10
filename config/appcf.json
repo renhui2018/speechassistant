@@ -10,7 +10,7 @@
     },
     "speechAPI": {
         "url": "http://www.tuling123.com/openapi/api",
-        "key": "ffacf70aa1a34af693f150df5259ed74",
-        "userid": "speechassistant"
+        "key": "",
+        "userid": ""
     }
 }
