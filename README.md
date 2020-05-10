@@ -5,6 +5,8 @@
 1. 查询数据库
 2. 接入图灵机器人API
 
+### 安装mongodb
+
 ### 技术栈
 nodejs express + mongoose
 
